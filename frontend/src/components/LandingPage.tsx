@@ -62,28 +62,28 @@ const LandingPage = () => {
                 <span className="icon solid fa-server"></span>
                 <div className="content">
                   <h3>Backend Development</h3>
-                  <p>...</p>
+                  <p>Many APIs written in C#, Python, and Go. An extensive understanding of MVC architecture and how it applies to different languages/frameworks. Implementation of external APIs such as <a href="https://developer.spotify.com/documentation/web-api" target="_blank">Spotify</a> and <a href="https://www.weatherapi.com/" target="_blank">Weather</a>. Implementation of and adherence to best security standards (JWT, OAuth2).</p>
                 </div>
               </article>
               <article>
                 <span className="icon solid fa-desktop"></span>
                 <div className="content">
                   <h3>Frontend Development</h3>
-                  <p>...</p>
+                  <p>Extensive use of frontend design utilizing raw CSS, tailwind, React component-based styling, and other styling libraries. Understanding of CSS properties, best practices, tools, and how to best utilize CSS's features.</p>
                 </div>
               </article>
               <article>
-                <span className="icon solid fa-phone"></span>
+                <span className="icon solid fa-mobile-alt"></span>
                 <div className="content">
                   <h3>Mobile App Development </h3>
-                  <p>...</p>
+                  <p>Experience with React Native developing a responsive UI that calls a diverse range of backend functionality.</p>
                 </div>
               </article>
               <article>
                 <span className="icon solid fa-cog"></span>
                 <div className="content">
                   <h3>Machine Learning</h3>
-                  <p>...</p>
+                  <p>Implementation of many types of AI models using <a href="https://www.tensorflow.org/" target="_blank">Tensorflow</a> and <a href="https://pytorch.org/" target="_blank">Pytorch</a>. This includes a wide range of model types: <a href="https://www.geeksforgeeks.org/binary-cross-entropy-log-loss-for-binary-classification/" target="_blank">Binary Crossentropy</a>, <a href="https://www.youtube.com/watch?v=aircAruvnKk" target="_blank">Neural Networks / Deep Neural Networks</a>, <a href="https://www.ibm.com/think/topics/decision-trees#:~:text=A%20decision%20tree%20is%20a,internal%20nodes%20and%20leaf%20nodes." target="_blank">Decision Trees</a>, <a href="https://www.geeksforgeeks.org/ml-linear-regression/" target="_blank">Linear Regression</a>, <a href="https://www.ibm.com/think/topics/random-forest" target="_blank">Random Forest</a>, and <a href="https://arxiv.org/abs/1706.03762" target="_blank">NLP / LLM</a>.</p>
                 </div>
               </article>
             </div>
@@ -105,7 +105,7 @@ const LandingPage = () => {
               <article>
                 <a href="#" className="image"><img src="images/pic02.jpg" alt="" /></a>
                 <h3>Automatic Go Documentation Generator</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                <p>This project reads specialized comments within your Go source code and generates a robust documentation for it. Leave <a href="http://doxygen.nl/" target="_blank">Doxygen</a>-style comments to give Information to the program.</p>
                 <ul className="actions">
                   <li><a href="#" className="button">More</a></li>
                 </ul>
@@ -113,7 +113,7 @@ const LandingPage = () => {
               <article>
                 <a href="#" className="image"><img src="images/pic03.jpg" alt="" /></a>
                 <h3>AI-Powered Spotify Song Queuer</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                <p>Feeds the user's mood, the current weather in the user's location, and the time of day into an AI model that will automatically queue a song on Spotify relevant to those parameters. For example, on a rainy day when the user is feeling sad and it's night, maybe it would queue blues music. </p>
                 <ul className="actions">
                   <li><a href="#" className="button">More</a></li>
                 </ul>
@@ -121,7 +121,7 @@ const LandingPage = () => {
               <article>
                 <a href="#" className="image"><img src="images/pic04.jpg" alt="" /></a>
                 <h3>C-Text Code Editor</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                <p>Code editor with necessary functions such as: file editing, workspace architecture, terminal integration, markdown renderer, and more. Powered by <a href="https://electron-vite.org" target="_blank">Electron Vite</a>.</p>
                 <ul className="actions">
                   <li><a href="#" className="button">More</a></li>
                 </ul>
@@ -142,47 +142,20 @@ const LandingPage = () => {
               </button>
             </div>
 
-            <section id="search" className="alt">
-              <form method="post" action="#">
-                <input type="text" name="query" id="query" placeholder="Search" />
-              </form>
-            </section>
-
             <nav id="menu">
               <header className="major">
                 <h2>Menu</h2>
               </header>
               <ul>
                 <li><a href="index.html">Homepage</a></li>
-                <li><a href="generic.html">Generic</a></li>
-                <li><a href="elements.html">Elements</a></li>
-                <li>
-                  <span className="opener">Submenu</span>
-                  <ul>
-                    <li><a href="#">Lorem Dolor</a></li>
-                    <li><a href="#">Ipsum Adipiscing</a></li>
-                    <li><a href="#">Tempus Magna</a></li>
-                    <li><a href="#">Feugiat Veroeros</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Etiam Dolore</a></li>
-                <li><a href="#">Adipiscing</a></li>
-                <li>
-                  <span className="opener">Another Submenu</span>
-                  <ul>
-                    <li><a href="#">Lorem Dolor</a></li>
-                    <li><a href="#">Ipsum Adipiscing</a></li>
-                    <li><a href="#">Tempus Magna</a></li>
-                    <li><a href="#">Feugiat Veroeros</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Maximus Erat</a></li>
-                <li><a href="#">Sapien Mauris</a></li>
-                <li><a href="#">Amet Lacinia</a></li>
+                <li><a href="generic.html">My Skillset</a></li>
+                <li><a href="elements.html">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">About Me</a></li>
               </ul>
             </nav>
 
-            <section>
+            {/* <section>
               <header className="major">
                 <h2>Ante interdum</h2>
               </header>
@@ -203,13 +176,12 @@ const LandingPage = () => {
               <ul className="actions">
                 <li><a href="#" className="button">More</a></li>
               </ul>
-            </section>
+            </section> */}
 
             <section>
               <header className="major">
                 <h2>Get in touch</h2>
               </header>
-              <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
               <ul className="contact">
                 <li className="icon solid fa-envelope"><a href="mailto:ajtroup1@crimson.ua.edu">ajtroup1@crimson.ua.edu</a></li>
                 <li className="icon solid fa-phone">(256) 746-6217</li>
@@ -217,11 +189,6 @@ const LandingPage = () => {
                   Tuscaloosa, AL 35487</li>
               </ul>
             </section>
-
-            <footer id="footer">
-              <p className="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-            </footer>
-
           </div>
         </div>
       )}
