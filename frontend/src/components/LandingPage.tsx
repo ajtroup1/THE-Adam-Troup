@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Headshot from "../assets/images/IMG_0035.jpg";
 import { projects } from "../data/data";
 
