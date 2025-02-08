@@ -2154,6 +2154,7 @@ input[type="radio"]+label:before {
 
 .icon.brands:before {
   font-family: 'Font Awesome 5 Brands';
+  font-size: 0.9rem;
 }
 
 /* Image */
@@ -3688,4 +3689,20 @@ button:disabled,
 
 .close-sidebar {
   width: 100%;
+}
+
+.ml-git {
+  margin-left: 0.3rem;
+}
+
+.resume-container {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.resume-download-options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
