@@ -3706,3 +3706,32 @@ button:disabled,
   justify-content: center;
   gap: 2rem;
 }
+
+.project {
+  position: relative;
+}
+
+.project-tech-icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4%;
+}
+
+.project-tech-icon-container {
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  width: 3rem;
+  height: auto;
+}
+
+.project-tech-icon {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
